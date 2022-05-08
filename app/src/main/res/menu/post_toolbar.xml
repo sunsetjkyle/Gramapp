@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/likepost"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/ic_favorite_border_black_24dp"
+            android:title="Like"/>
+        <item android:id="@+id/chat"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/ic_chat"
+            android:title="Chat"/>
+        <item android:id="@+id/share"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/ic_share"
+            android:title="Share"/>
+
+    </group>
+
+</menu>

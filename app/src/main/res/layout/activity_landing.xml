@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LandingActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English (United Kingdom)"
+        android:layout_centerHorizontal="true"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_instagram_logo"
+            android:layout_marginBottom="30dp"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/insta_blue"
+            android:elevation="0dp"
+            android:layout_marginTop="20dp"
+            android:text="Create New Account"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:fontFamily="@font/robotomedium"
+            android:padding="12dp"
+            app:cornerRadius="6dp"/>
+
+        <TextView
+            android:id="@+id/txt_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:fontFamily="@font/robotomedium"
+            android:textColor="@color/insta_blue"
+            android:layout_marginTop="20dp"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
